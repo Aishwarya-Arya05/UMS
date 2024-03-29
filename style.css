@@ -1,0 +1,112 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url(bg1.jpg);
+    background-size: cover;
+}
+
+header {
+    background-color: #39191f;
+    color: #23426d;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+section h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    background-color: #1e313a;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #725f25;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+
+.demo1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.demo1:hover{
+    color: rgb(233, 126, 5);
+}

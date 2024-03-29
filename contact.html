@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact University Management System</title>
+    <link rel="stylesheet" href="contact.css"> <!-- Link to your custom CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Contact University Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="features.html">Features</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions or inquiries, feel free to contact us:</p>
+            <form action="contact.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 University Management System</p>
+        </div>
+    </footer>
+
+</body>
+</html>
